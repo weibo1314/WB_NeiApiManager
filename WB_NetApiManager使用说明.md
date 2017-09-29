@@ -203,23 +203,23 @@ HomeNetApi *api = [[HomeNetApi alloc] initWithPageNum:0];
 
 ```  控制台
     2017-09-28 12:05:13.700320+0800 WB_iOS_FrameWork[3677:299879]
-    @property (nonatomic ,strong) NSString *time;
+    @property (nonatomic ,copy) NSString *time;
 
-    @property (nonatomic ,strong) NSString *appModel;
+    @property (nonatomic ,copy) NSString *appModel;
 
-    @property (nonatomic ,strong) NSString *title;
+    @property (nonatomic ,copy) NSString *title;
 
-    @property (nonatomic ,strong) NSString *name;
+    @property (nonatomic ,copy) NSString *name;
 
-    @property (nonatomic ,strong) NSString *adPic;
+    @property (nonatomic ,copy) NSString *adPic;
 
-    @property (nonatomic ,strong) NSString *seller_id;
+    @property (nonatomic ,copy) NSString *seller_id;
     2017-09-28 12:05:13.700637+0800 WB_iOS_FrameWork[3677:299879]
-    @property (nonatomic ,strong) NSString *title;
+    @property (nonatomic ,copy) NSString *title;
 
-    @property (nonatomic ,strong) NSString *icon;
+    @property (nonatomic ,copy) NSString *icon;
 
-    @property (nonatomic ,strong) NSString *type;
+    @property (nonatomic ,copy) NSString *type;
 ```
 
 
